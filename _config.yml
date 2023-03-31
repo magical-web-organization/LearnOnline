@@ -1,0 +1,117 @@
+title: LearnOnline
+tagline: 'Learn anything, anywhere.'
+description: "LearnOnline Wiki is a comprehensive online learning platform that empowers you to learn anything, anywhere. With a wide range of courses across various categories, our platform is designed to help you achieve your personal and professional goals. Whether you're looking to improve your skills, advance your career, or explore new topics, LearnOnline Wiki has everything you need to succeed."
+url: https://learnonline.wiki
+repo: LearnOnline
+google_analytics_id: G-GCT0JZD101
+
+permalink: ':categories/:title.html'
+timezone: Europe/Istanbul
+
+exclude: ["z_serve.bat", "*.ai", "install.php"]
+
+collections_dir: data
+collections:
+  business-and-entrepreneurship:
+    name: Business and Entrepreneurship
+    output: true
+    permalink: /:collection/:name.html
+
+  technology-and-programming:
+    name: Technology and Programming
+    output: true
+    permalink: /:collection/:name.html
+
+  health-and-wellness:
+    name: Health and Wellness
+    output: true
+    permalink: /:collection/:name.html
+
+  personal-development:
+    name: Personal Development
+    output: true
+    permalink: /:collection/:name.html
+
+  language-learning:
+    name: Language Learning
+    output: true
+    permalink: /:collection/:name.html
+
+  academic-and-test-prep:
+    name: Academic and Test Prep
+    output: true
+    permalink: /:collection/:name.html
+
+  career-development:
+    name: Career Development
+    output: true
+    permalink: /:collection/:name.html
+
+  design-and-creativity:
+    name: Design and Creativity
+    output: true
+    permalink: /:collection/:name.html
+
+  lifestyle:
+    name: Lifestyle
+    output: true
+    permalink: /:collection/:name.html
+
+  writing-and-communication:
+    name: Writing and Communication
+    output: true
+    permalink: /:collection/:name.html
+
+  science-and-technology:
+    name: Science and Technology
+    output: true
+    permalink: /:collection/:name.html
+
+  personal-finance:
+    name: Personal Finance
+    output: true
+    permalink: /:collection/:name.html
+
+  sustainability-and-environmentalism:
+    name: Sustainability and Environmentalism
+    output: true
+    permalink: /:collection/:name.html
+
+  mindfulness-and-meditation:
+    name: Mindfulness and Meditation
+    output: true
+    permalink: /:collection/:name.html
+
+  parenting-and-family:
+    name: Parenting and Family
+    output: true
+    permalink: /:collection/:name.html
+
+  social-media-and-digital-marketing:
+    name: Social Media and Digital Marketing
+    output: true
+    permalink: /:collection/:name.html
+
+  data-science-and-analytics:
+    name: Data Science and Analytics
+    output: true
+    permalink: /:collection/:name.html
+
+  artificial-intelligence-and-machine-learning:
+    name: Artificial Intelligence and Machine Learning
+    output: true
+    permalink: /:collection/:name.html
+
+  photography-and-videography:
+    name: Photography and Videography
+    output: true
+    permalink: /:collection/:name.html
+
+  music-and-performing-arts:
+    name: Music and Performing Arts
+    output: true
+    permalink: /:collection/:name.html
+
+# Gems
+plugins:
+  - jekyll-sitemap
